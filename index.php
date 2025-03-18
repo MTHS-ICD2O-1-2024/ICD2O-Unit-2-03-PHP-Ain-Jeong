@@ -49,9 +49,6 @@
               Enter
             </button>
           </form>
-          <div class="page-content-answer">
-            <div id="address"></div>
-          </div>
       </main>
     </div>
   </body>
