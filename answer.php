@@ -27,31 +27,15 @@
         <div class="right-image">
           <img src="./images/street.jpg" alt="street image" width="250" />
         </div>
-        <div class="page-content-php">Please enter the following:</div>
         <div class="page-content-php">
-          <form action="answer.php" method="GET">
-            <p>Street Number</p>
-            <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="street-number">
-              <label class="mdl-textfield__label" for="street-number">Street number here ...</label>
-              <span class="mdl-textfield__error">Input is not a number!</span>
-            </div>
-            <br />
-            <p>Street Name</p>
-            <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" name="street-name">
-              <label class="mdl-textfield__label" for="street-name">Street name here ...</label>
-            </div>
-            <br />
-            <!-- Accent-colored raised button with ripple -->
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-              type="submit">
-              Enter
-            </button>
-          </form>
-          <div class="page-content-answer">
-            <div id="address"></div>
+          <div id="address">
+            <?php
+            $streetName = $_GET["street-name"];
+            $streetNumber = $_GET["street-number"];
+            echo "<p>Your address is: " . $streetName . ", street number " . $streetNumber . ".</p>";
+            ?>
           </div>
+        </div>
       </main>
     </div>
   </body>
