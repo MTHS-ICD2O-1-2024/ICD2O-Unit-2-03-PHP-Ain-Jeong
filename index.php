@@ -27,8 +27,7 @@
         <div class="right-image">
           <img src="./images/street.jpg" alt="street image" width="250" />
         </div>
-        <div class="page-content-php">Please enter the following:</div>
-        <div class="page-content-php">
+        <div class="page-content-php">Please enter the following: </div>
           <form action="answer.php" method="GET">
             <p>Street Number</p>
             <div class="mdl-textfield mdl-js-textfield">

@@ -14,14 +14,14 @@
   padding-top: 15pt;
 }
 
-.page-content-php {
+.page-content {
   color: darkblue;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-top: 5pt;
 }
 
-.page-content-answer {
+.page-content-php {
   color: darkblue;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 2rem;
