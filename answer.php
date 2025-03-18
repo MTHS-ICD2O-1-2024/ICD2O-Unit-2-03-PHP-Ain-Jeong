@@ -32,7 +32,7 @@
             <?php
             $streetName = $_GET["street-name"];
             $streetNumber = $_GET["street-number"];
-            echo "<p>Your address is: " . $streetName . ", street number " . $streetNumber . ".</p>";
+            echo "<p>Your address is: " . $streetName . ", " . $streetNumber . ".</p>";
             ?>
           </div>
           <div class="page-content-answer">
