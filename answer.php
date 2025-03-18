@@ -35,7 +35,8 @@
             echo "<p>Your address is: " . $streetName . ", " . $streetNumber . ".</p>";
             ?>
           </div>
-          <div class="page-content">
+        </div>
+          <div class="page-content-return">
             <a href="./index.php">Return ...</a>
           </div>
       </main>
